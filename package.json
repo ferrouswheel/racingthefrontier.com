@@ -1,0 +1,10 @@
+{
+  "name": "racing-the-frontier",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A satirical open letter from the people sensibly racing the frontier.",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "check": "node --check script.js"
+  }
+}

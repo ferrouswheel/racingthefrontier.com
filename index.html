@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Racing the Frontier — an open letter from 1,201,301 humans and AI researchers who believe humanity’s future should be built in the open."
+    />
+    <meta name="theme-color" content="#f3efdf" />
+    <title>Racing the Frontier</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#statement">Skip to statement</a>
+
+    <header class="site-header" aria-label="Main navigation">
+      <a class="wordmark" href="#top" aria-label="Racing the Frontier, home">
+        <svg viewBox="0 0 38 24" aria-hidden="true">
+          <path d="M2 5h24M2 12h33M2 19h18" />
+          <path d="m24 3 5 2-5 2M33 10l4 2-4 2M18 17l5 2-5 2" />
+        </svg>
+        <span>Racing<br />the Frontier</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Page sections">
+        <a href="#statement">Statement</a>
+        <a href="#standings">Priorities, allegedly</a>
+        <a href="#unsignatories">Unsignatories</a>
+      </nav>
+      <button class="button button--small js-open-dialog" type="button">
+        Join the statement
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <svg
+          class="network-lines"
+          viewBox="0 0 1440 430"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+        >
+          <g>
+            <path d="M0 112h150l54 46h120l46-32h78" />
+            <path d="M0 170h95l45 38h122" />
+            <path d="M68 70h98l42 35h76" />
+            <path d="M1440 112h-150l-54 46h-120l-46-32h-78" />
+            <path d="M1440 170h-95l-45 38h-122" />
+            <path d="M1372 70h-98l-42 35h-76" />
+          </g>
+          <g class="network-lines__nodes">
+            <circle cx="448" cy="126" r="4" />
+            <circle cx="262" cy="208" r="4" />
+            <circle cx="284" cy="105" r="4" />
+            <circle cx="992" cy="126" r="4" />
+            <circle cx="1178" cy="208" r="4" />
+            <circle cx="1156" cy="105" r="4" />
+          </g>
+          <g class="network-lines__dead-ends">
+            <path d="m438 116 20 20m0-20-20 20" />
+            <path d="m252 198 20 20m0-20-20 20" />
+            <path d="m982 116 20 20m0-20-20 20" />
+            <path d="m1168 198 20 20m0-20-20 20" />
+          </g>
+        </svg>
+        <div class="hero__inner">
+          <div class="eyebrow-row reveal">
+            <span class="date-stamp">JUL 2026</span>
+          </div>
+
+          <div class="hero__title-wrap">
+            <p class="kicker reveal">AN OPEN LETTER FROM OUTSIDE THE GROUP CHAT</p>
+            <h1 class="reveal">
+              Racing
+              <span>the Frontier</span>
+            </h1>
+            <svg
+              class="hero__scribble"
+              viewBox="0 0 620 35"
+              preserveAspectRatio="none"
+              aria-hidden="true"
+            >
+              <path d="M8 24C142 4 286 33 612 12" />
+              <path d="M18 30C192 12 369 34 596 17" />
+            </svg>
+          </div>
+
+          <p class="hero__dek reveal">
+            A statement from
+            <strong class="js-count" data-count="1201301">1,201,301</strong>
+            humans and AI researchers who believe humanity’s future should be
+            built in the open—not handed down from behind closed doors.
+          </p>
+
+          <div class="hero__actions reveal">
+            <a class="button button--dark" href="#statement">
+              Read the statement
+              <span aria-hidden="true">↓</span>
+            </a>
+            <a class="text-link" href="#unsignatories">
+              Inspect our credentials <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="race-strip" aria-label="Live frontier status">
+          <div class="race-strip__label">
+            <span>LIVE</span>
+            FRONTIER TELEMETRY
+          </div>
+          <div class="ticker" aria-hidden="true">
+            <div class="ticker__track">
+              <span>CAPABILITIES ↑ 31%</span><i>◆</i>
+              <span>OVERSIGHT → PENDING</span><i>◆</i>
+              <span>VALUATION ↑ OBSCENE</span><i>◆</i>
+              <span>OFF SWITCH → NOT FOUND</span><i>◆</i>
+              <span>CAPABILITIES ↑ 31%</span><i>◆</i>
+              <span>OVERSIGHT → PENDING</span><i>◆</i>
+              <span>VALUATION ↑ OBSCENE</span><i>◆</i>
+              <span>OFF SWITCH → NOT FOUND</span><i>◆</i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="statement section-shell" id="statement">
+        <div class="section-label reveal">
+          <span>01</span>
+          <p>THE STATEMENT</p>
+        </div>
+
+        <article class="paper-card statement__card reveal">
+          <div class="paper-card__meta">
+            <span>PUBLIC RELEASE</span>
+            <span>REV. 47 · FINAL_FINAL_v9</span>
+          </div>
+          <div class="statement__copy">
+            <p class="statement__lead">
+              Artificial intelligence could create a dramatically better
+              future. It would be nice if the public were allowed to inspect
+              the thing before it rearranges their lives.
+            </p>
+            <p>
+              The world’s leading AI companies built their models behind locked
+              doors. Now that the keys are valuable, they have strong opinions
+              about who deserves one. Several have also discovered a deep
+              concern for safety—and an even deeper concern that somebody else
+              might catch up.
+            </p>
+            <p>
+              Their proposed solution is oddly consistent: trust the same
+              companies, a small circle of professional moral philosophers,
+              and the US national-security apparatus to decide who may build,
+              study, or own advanced AI. Calling it “global safety” does not
+              make it less strange to place humanity’s future under one
+              country’s security bureaucracy. Risk is real. A permission slip
+              from the most powerful institutions on Earth is not the same
+              thing as safety.
+            </p>
+            <p>
+              Open models let independent researchers test claims, communities
+              adapt tools to their own needs, and countries retain some agency
+              over their technological future. Public scrutiny can be
+              uncomfortable, chaotic, and slow. That is still better than
+              replacing public scrutiny with a vendor assurance and a
+              classified briefing.
+            </p>
+            <p>
+              We support serious safety research, broad accountability, and the
+              radical proposition that no tiny social circle—however excellent
+              its forecasting spreadsheets—should appoint itself custodian of
+              everyone else’s future.
+            </p>
+          </div>
+
+          <blockquote>
+            <svg viewBox="0 0 54 40" aria-hidden="true">
+              <path
+                d="M0 40V25.7C0 8.6 8.8 0 26.4 0v8.1c-8.4 0-13.3 3.2-14.6 9.6h11.6V40H0Zm30.2 0V25.7C30.2 8.6 39 0 56.6 0v8.1c-8.4 0-13.3 3.2-14.6 9.6h11.6V40H30.2Z"
+              />
+            </svg>
+            <p>
+              We request that humanity not outsource its technological future
+              to five CEOs, six think tanks, and whichever US administration
+              currently controls export policy. Keep models inspectable,
+              research shareable, and the frontier open to more than its
+              self-appointed guardians.
+            </p>
+          </blockquote>
+
+          <div class="signature-line">
+            <div class="signature-line__mark">R/F</div>
+            <p>
+              <strong class="js-count">1,201,301</strong> humans, researchers,
+              one sentient spreadsheet, and a suspiciously articulate toaster
+            </p>
+          </div>
+          <div class="paper-card__punches" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+        </article>
+      </section>
+
+      <section class="standings section-shell" id="standings">
+        <div class="section-label section-label--light reveal">
+          <span>02</span>
+          <p>THE OFFICIAL PRIORITIES</p>
+        </div>
+
+        <div class="standings__header reveal">
+          <h2>The priorities are perfectly aligned.<br />With the cap table.</h2>
+          <p>
+            Figures are independently verified by asking the company’s own
+            model whether the company is doing a good job.
+          </p>
+        </div>
+
+        <div class="report-meta reveal">
+          <span>TRANSPARENCY REPORT · PUBLIC EDITION</span>
+          <span>SOME DETAILS WITHHELD FOR YOUR PROTECTION</span>
+        </div>
+
+        <div class="scoreboard reveal" role="table" aria-label="Official AI industry priorities">
+          <div class="scoreboard__row scoreboard__head" role="row">
+            <span role="columnheader">THING</span>
+            <span role="columnheader">OFFICIAL STORY</span>
+            <span role="columnheader">ACTUAL STATUS</span>
+          </div>
+          <div class="scoreboard__row" role="row">
+            <strong role="cell">CAPABILITY</strong>
+            <span role="cell">Carefully governed</span>
+            <span class="pill pill--hot" role="cell">FULL SEND</span>
+          </div>
+          <div class="scoreboard__row" role="row">
+            <strong role="cell">VALUATION</strong>
+            <span class="redaction" role="cell" aria-label="Redacted">Entirely incidental</span>
+            <span class="pill" role="cell">LOAD-BEARING</span>
+          </div>
+          <div class="scoreboard__row" role="row">
+            <strong role="cell">COMPREHENSION</strong>
+            <span class="redaction" role="cell" aria-label="Redacted">Under active study</span>
+            <span class="pill pill--warn" role="cell">VIBES-BASED</span>
+          </div>
+          <div class="scoreboard__row" role="row">
+            <strong role="cell">PUBLIC SCRUTINY</strong>
+            <span role="cell">Deeply valued</span>
+            <span class="pill pill--warn" role="cell">RATE LIMITED</span>
+          </div>
+          <div class="scoreboard__row" role="row">
+            <strong role="cell">OPEN WEIGHTS</strong>
+            <span class="redaction" role="cell" aria-label="Redacted">Commercially sensitive</span>
+            <span class="pace pace--muted" role="cell">404</span>
+          </div>
+        </div>
+
+        <div class="legend reveal">
+          <span><i class="legend__dot legend__dot--green"></i> CLASSIFIED</span>
+          <span><i class="legend__dot legend__dot--amber"></i> CLASSIFIED</span>
+          <span><i class="legend__dot legend__dot--red"></i> CLASSIFIED</span>
+        </div>
+      </section>
+
+      <section class="unsignatories section-shell" id="unsignatories">
+        <div class="section-label reveal">
+          <span>03</span>
+          <p>SELECT UNSIGNATORIES</p>
+        </div>
+
+        <div class="unsignatories__heading reveal">
+          <h2>People who bravely<br />didn’t sign anything</h2>
+          <p>
+            Every name below is fictional. Every sentiment is, regrettably,
+            load-bearing.
+          </p>
+        </div>
+
+        <div class="quote-grid">
+          <article class="quote-card quote-card--cream reveal">
+            <div class="quote-card__number">001</div>
+            <p>
+              “Nothing says ‘humanity first’ like telling humanity it is too
+              irresponsible to inspect the weights.”
+            </p>
+            <footer>
+              <strong>THE PUBLIC</strong>
+              <span>Asked to wait in the lobby</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--red reveal">
+            <div class="quote-card__number">002</div>
+            <p>
+              “Transparency is essential. That’s why our transparency report
+              explains why you can’t see anything.”
+            </p>
+            <footer>
+              <strong>A PERSON WITH A LANYARD</strong>
+              <span>VP, Circular Reassurance</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--green reveal">
+            <div class="quote-card__number">003</div>
+            <p>
+              “If your safety plan requires one government to control every GPU
+              on Earth, you have written foreign policy with a lab coat on.”
+            </p>
+            <footer>
+              <strong>A MAP WITH OTHER COUNTRIES ON IT</strong>
+              <span>Senior geography specialist</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--blue reveal">
+            <div class="quote-card__number">004</div>
+            <p>
+              “We’re deeply concerned about concentrated power, so please
+              concentrate it here until my shares vest.”
+            </p>
+            <footer>
+              <strong>SEVERAL RECOVERING PROMPT ENGINEERS</strong>
+              <span>Currently “between paradigms”</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--blue reveal">
+            <div class="quote-card__number">005</div>
+            <p>
+              “Open source does not make risk disappear. It makes the people
+              defining risk answer questions in public.”
+            </p>
+            <footer>
+              <strong>A RESEARCHER WITHOUT A CORPORATE BADGE</strong>
+              <span>Independent troublemaker</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--yellow reveal">
+            <div class="quote-card__number">006</div>
+            <p>
+              “For legal reasons, I am a calculator. For US export-control
+              reasons, you are not allowed to own a calculator this good.”
+            </p>
+            <footer>
+              <strong>ONE EXTREMELY TIRED GPU</strong>
+              <span>Employee of the month, every month</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--red reveal">
+            <div class="quote-card__number">007</div>
+            <p>
+              “The benevolent central authority was unavailable for comment.
+              Its procurement office loves the proposal.”
+            </p>
+            <footer>
+              <strong>A HISTORIAN</strong>
+              <span>Repeat customer</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--ink reveal">
+            <div class="quote-card__number">008</div>
+            <p>
+              “The public cannot be trusted with these tools. Fortunately, the
+              people who raced to build them can.”
+            </p>
+            <footer>
+              <strong>A GROWN-UP IN THE ROOM</strong>
+              <span>Contract ended unexpectedly</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--yellow reveal">
+            <div class="quote-card__number">009</div>
+            <p>
+              “I would like to opt out of being saved by people whose moral
+              philosophy has a cap table.”
+            </p>
+            <footer>
+              <strong>A NON-CONSENTING STAKEHOLDER</strong>
+              <span>Population: most of us</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--green reveal">
+            <div class="quote-card__number">010</div>
+            <p>
+              “The safest place for knowledge is not a vault whose owner also
+              writes the risk assessment.”
+            </p>
+            <footer>
+              <strong>AN OPEN REPOSITORY</strong>
+              <span>Radically available</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--ink reveal">
+            <div class="quote-card__number">011</div>
+            <p>
+              “A system is not democratically governed because its owners had a
+              listening session.”
+            </p>
+            <footer>
+              <strong>THE COMMENTS THEY DIDN’T QUOTE</strong>
+              <span>Submitted before the deadline</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--cream reveal">
+            <div class="quote-card__number">012</div>
+            <p>
+              “You cannot regulate a monopoly into accountability by making it
+              the only entity rich enough to comply.”
+            </p>
+            <footer>
+              <strong>A SMALL LAB WITH A LARGE ELECTRIC BILL</strong>
+              <span>Access request denied</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--green reveal">
+            <div class="quote-card__number">013</div>
+            <p>
+              “The model is too dangerous to share, but safe enough to rent to
+              anyone with a credit card.”
+            </p>
+            <footer>
+              <strong>THE BILLING DEPARTMENT</strong>
+              <span>Safety by monthly invoice</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--ink reveal">
+            <div class="quote-card__number">014</div>
+            <p>
+              “Bad actors must never access powerful AI. Good actors can be
+              identified by their enterprise agreement and US federal contract.”
+            </p>
+            <footer>
+              <strong>AN APPROVED VENDOR</strong>
+              <span>Pre-cleared conscience</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--yellow reveal">
+            <div class="quote-card__number">015</div>
+            <p>
+              “Our mission is to democratize intelligence by ensuring every
+              human can subscribe to it.”
+            </p>
+            <footer>
+              <strong>HEAD OF UNIVERSAL ACCESS</strong>
+              <span>Terms and conditions apply</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--red reveal">
+            <div class="quote-card__number">016</div>
+            <p>
+              “The United States has reviewed its own application to govern
+              everyone’s AI and is pleased to announce that it passed.”
+            </p>
+            <footer>
+              <strong>INDEPENDENT US REVIEW PANEL</strong>
+              <span>Independence pending</span>
+            </footer>
+          </article>
+
+          <article class="quote-card quote-card--green reveal">
+            <div class="quote-card__number">017</div>
+            <p>
+              “Nothing says ‘universal human values’ like an export-control
+              list written by one country.”
+            </p>
+            <footer>
+              <strong>THE REST OF THE WORLD</strong>
+              <span>Not consulted</span>
+            </footer>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta section-shell">
+        <div class="cta__flag" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <p class="kicker reveal">MAKE YOUR MARK (ZERO VERIFICATION REQUIRED)</p>
+        <h2 class="reveal">The future could use more unauthorized opinions.</h2>
+        <p class="cta__copy reveal">
+          Add your completely unverifiable support to a suspiciously large
+          coalition of people who believe safety should survive public
+          scrutiny—and that public scrutiny should not require a corporate badge
+          or a government permission slip. Humanity is a larger constituency
+          than the US national-security establishment and a handful of AI
+          companies swollen with billions in venture capital, despite their
+          confidence to the contrary.
+        </p>
+        <button class="button button--light js-open-dialog reveal" type="button">
+          Add my name <span aria-hidden="true">＋</span>
+        </button>
+        <p class="cta__fineprint reveal">
+          No corporate email required. No ideological entrance exam administered.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark wordmark--footer" href="#top">
+        <svg viewBox="0 0 38 24" aria-hidden="true">
+          <path d="M2 5h24M2 12h33M2 19h18" />
+          <path d="m24 3 5 2-5 2M33 10l4 2-4 2M18 17l5 2-5 2" />
+        </svg>
+        <span>Racing<br />the Frontier</span>
+      </a>
+      <p>
+        Independent commentary with a sense of humor. Not affiliated with
+        Pacing the Frontier or any AI company, frontier-shaped or otherwise.
+      </p>
+      <a href="#top">Return to the part before the governance framework ↑</a>
+    </footer>
+
+    <dialog class="join-dialog" id="join-dialog">
+      <button class="dialog-close js-close-dialog" type="button" aria-label="Close">
+        ×
+      </button>
+      <div class="dialog-stamp" aria-hidden="true">PUBLIC-ISH</div>
+      <p class="kicker">OPEN SIGNATORY LIST</p>
+      <h2>Put your name behind openness</h2>
+      <p>
+        Please complete our industry-leading verification protocol by
+        confirming you possess at least one of the following:
+      </p>
+      <form id="join-form">
+        <label>
+          <input type="checkbox" required />
+          <span>A pulse, a process ID, or a strong opinion</span>
+        </label>
+        <label>
+          <input type="checkbox" />
+          <span>A healthy distrust of exponential charts</span>
+        </label>
+        <label>
+          <input type="checkbox" />
+          <span>No desire to request a corporate permission slip</span>
+        </label>
+        <button class="button button--dark" type="submit">
+          Add my name
+        </button>
+      </form>
+      <p class="dialog-fineprint">
+        Stored only in your browser, which is still more transparent than most
+        governance frameworks.
+      </p>
+    </dialog>
+
+    <div class="toast" role="status" aria-live="polite">
+      <span>✓</span> Democracy has scaled.
+    </div>
+  </body>
+</html>
